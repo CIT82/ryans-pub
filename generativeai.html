@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Textual Adventure Game</title>
+<style>
+  body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+  #gameDisplay { margin-bottom: 20px; }
+  button { padding: 10px 20px; margin-top: 10px; cursor: pointer; }
+</style>
+</head>
+<body>
+<h1>Textual Adventure Game</h1>
+<div id="gameDisplay"></div>
+<button onclick="generateScenario()">Generate Scenario</button>
+
+<script>
+  const scenarios = [
+    {
+      text: "You encounter a wild dragon. Do you fight it or run away?",
+      options: ["Fight", "Run"],
+      results: [
+        "You bravely fight the dragon and win! Treasure is yours.",
+        "You run away safely, but the dragon burns the village."
+      ]
+    },
+    {
+      text: "You find a mysterious book. Do you read it or ignore it?",
+      options: ["Read", "Ignore"],
+      results: [
+        "The book enchants you with wisdom, increasing your knowledge.",
+        "You ignore the book, missing out on potential spells."
+      ]
+    },
+    {
+      text: "A stranger offers you a quest. Do you accept or decline?",
+      options: ["Accept", "Decline"],
+      results: [
+        "You accept the quest and embark on an epic adventure.",
+        "You decline and continue your journey unbothered."
+      ]
+    }
+  ];
+
+  function generateScenario() {
+    const scenario = scenarios[Math.floor(Math.random() * scenarios.length)];
+    const gameDisplay = document.getElementById('gameDisplay');
+    gameDisplay.innerHTML = `<p>${scenario.text}</p>` +
+                            scenario.options.map((option, index) => 
+                              `<button onclick="resolveScenario(${index}, '${scenario.results[index]}')">${option}</button>`
+                            ).join('');
+  }
+
+  function resolveScenario(index, result) {
+    const gameDisplay = document.getElementById('gameDisplay');
+    gameDisplay.innerHTML = `<p>${result}</p>`;
+  }
+</script>
+</body>
+</html>
