@@ -1,0 +1,15 @@
+- [ ] Change website title name
+- [ ] Brand image logo needs to be changed or deleted
+- [ ] Discovery button needs to be changed or deleted
+- [ ] Change navlinks to correct labels
+- [ ] Separate pages from index page
+- [ ] Change contact details
+- [ ] Change background video
+- [ ] Change containers to correct content
+- [ ] Update copyright
+- [ ] "Projects" buttons need to be changed
+- [ ] Testimonials removed
+- [ ] Change statistics to ?
+- [ ] Contact form needs updating
+- [ ] Footer content removed/updated
+- [ ] Update page distribution
