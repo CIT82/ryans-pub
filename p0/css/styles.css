@@ -793,6 +793,84 @@ a:hover {
 	margin-bottom: 0;
 }
 
+/********************/
+/*     Life Goals     */
+/********************/
+.split .area-0001 {
+	height: 430px;
+	background: url('../images/lifegoals.png') center center no-repeat;
+	background-size: cover;
+}
+
+.split .area-00011 {
+	padding-top: 9.25rem;
+	padding-bottom: 9.75rem;
+}
+
+.split h2 {
+	margin-bottom: 1.5rem;
+}
+
+.split p {
+	margin-bottom: 2.25rem;
+}
+
+.split p:last-of-type {
+	margin-bottom: 0;
+}
+
+/********************/
+/*     Pets     */
+/********************/
+.split .area-0002 {
+	height: 430px;
+	background: url('../images/lady.png') center center no-repeat;
+	background-size: cover;
+}
+
+.split .area-00022 {
+	padding-top: 9.25rem;
+	padding-bottom: 9.75rem;
+}
+
+.split h2 {
+	margin-bottom: 1.5rem;
+}
+
+.split p {
+	margin-bottom: 2.25rem;
+}
+
+.split p:last-of-type {
+	margin-bottom: 0;
+}
+
+/********************/
+/*     Mental Health     */
+/********************/
+.split .area-0003 {
+	height: 430px;
+	background: url('../images/mental.png') center center no-repeat;
+	background-size: cover;
+}
+
+.split .area-00033 {
+	padding-top: 9.25rem;
+	padding-bottom: 9.75rem;
+}
+
+.split h2 {
+	margin-bottom: 1.5rem;
+}
+
+.split p {
+	margin-bottom: 2.25rem;
+}
+
+.split p:last-of-type {
+	margin-bottom: 0;
+}
+
 /*******************/
 /*     Contact     */
 /*******************/
@@ -1395,6 +1473,78 @@ a:hover {
 }
 
 .split .area-88888 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 0;
+	vertical-align: top;
+}
+
+.split .text-container {
+	width: 400px;
+	margin-left: 3rem;
+}
+
+----------Life Goals-----------
+.split {
+	height: 786px;
+}
+
+.split .area-0001 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+.split .area-00011 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 0;
+	vertical-align: top;
+}
+
+.split .text-container {
+	width: 400px;
+	margin-left: 3rem;
+}
+
+-----------Pets-----------
+.split {
+	height: 786px;
+}
+
+.split .area-0002 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+.split .area-00022 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 0;
+	vertical-align: top;
+}
+
+.split .text-container {
+	width: 400px;
+	margin-left: 3rem;
+}
+
+-------------Mental Health---------
+.split {
+	height: 786px;
+}
+
+.split .area-0003 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+.split .area-00033 {
 	height: 100%;
 	width: 50%;
 	display: inline-block;
