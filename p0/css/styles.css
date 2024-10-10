@@ -716,63 +716,82 @@ a:hover {
 	margin-bottom: 0;
 }
 /********************/
-/*     Projects     */
+/*     Hobbies     */
 /********************/
-.filter {
-	padding-top: 9.5rem;
-	padding-bottom: 5.625rem;
-	text-align: center;
+.split .area-6666 {
+	height: 430px;
+	background: url('../images/trips.png') center center no-repeat;
+	background-size: cover;
 }
 
-.filter h2 {
-	margin-bottom: 2.625rem;
+.split .area-66666 {
+	padding-top: 9.25rem;
+	padding-bottom: 9.75rem;
 }
 
-.filter .button-group {
-	margin-bottom: 1.375rem;
+.split h2 {
+	margin-bottom: 1.5rem;
 }
 
-.filter .button {
-	margin-right: 0.25rem;
-	margin-bottom: 0.75rem;
-	margin-left: 0.25rem;
-	padding: 0.125rem 0.875rem;
-	border: none;
-	background-color: #ffffff;
-	color: #53575a;
-	font-weight: 600;
-	font-size: 0.875rem;
+.split p {
+	margin-bottom: 2.25rem;
 }
 
-.filter .button:hover,
-.filter .button.is-checked {
-	background-color: #7dc22b;
-	color: #ffffff;
+.split p:last-of-type {
+	margin-bottom: 0;
 }
 
-.filter .grid {
-	margin-right: auto;
-	max-width: 351px;
-	margin-left: auto;
+/********************/
+/*     Trips     */
+/********************/
+.split .area-7777 {
+	height: 430px;
+	background: url('../images/disneyland.png') center center no-repeat;
+	background-size: cover;
 }
 
-.filter .element-item {
-	margin-bottom: 3rem;
+.split .area-77777 {
+	padding-top: 9.25rem;
+	padding-bottom: 9.75rem;
 }
 
-.filter .element-item a {
-	text-decoration: none;
+.split h2 {
+	margin-bottom: 1.5rem;
 }
 
-.filter .element-item img {
-	margin-bottom: 1.125rem;
-	border-radius: 8px;
+.split p {
+	margin-bottom: 2.25rem;
 }
 
-.filter .element-item p {
-	text-align: left;
+.split p:last-of-type {
+	margin-bottom: 0;
 }
 
+/********************/
+/*     Future     */
+/********************/
+.split .area-8888 {
+	height: 430px;
+	background: url('../images/future.png') center center no-repeat;
+	background-size: cover;
+}
+
+.split .area-88888 {
+	padding-top: 9.25rem;
+	padding-bottom: 9.75rem;
+}
+
+.split h2 {
+	margin-bottom: 1.5rem;
+}
+
+.split p {
+	margin-bottom: 2.25rem;
+}
+
+.split p:last-of-type {
+	margin-bottom: 0;
+}
 
 /*******************/
 /*     Contact     */
@@ -1306,6 +1325,76 @@ a:hover {
 }
 
 .split .area-12345 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 0;
+	vertical-align: top;
+}
+
+.split .text-container {
+	width: 400px;
+	margin-left: 3rem;
+}
+---------------Hobbies---------------
+.split {
+	height: 786px;
+}
+
+.split .area-6666 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+.split .area-66666 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 0;
+	vertical-align: top;
+}
+
+.split .text-container {
+	width: 400px;
+	margin-left: 3rem;
+}
+-----------Trips------------
+.split {
+	height: 786px;
+}
+
+.split .area-7777 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+.split .area-77777 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 0;
+	vertical-align: top;
+}
+
+.split .text-container {
+	width: 400px;
+	margin-left: 3rem;
+}
+
+-------------Future------------
+.split {
+	height: 786px;
+}
+
+.split .area-8888 {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+}
+
+.split .area-88888 {
 	height: 100%;
 	width: 50%;
 	display: inline-block;
